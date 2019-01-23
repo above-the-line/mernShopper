@@ -20,4 +20,3 @@
 .env.production.local
 
 npm-debug.log*
-package*.json
