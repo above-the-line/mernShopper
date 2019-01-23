@@ -1,16 +1,1 @@
 language: node_js
-  node_js: "10.6.0"
-cache:
-  directories:
-    - node_modules
-    - client/node_modules
-branches:
-  only:
-    - master
-deploy:
-  provider: heroku
-  api_key:
-    secure: aSCP158sjRVPkvXaJbnt5r26SybPbS8/I6e0VgRQD7HEyTg1T5+2sMtZecjP1ElR7cr1ifF6Xc7+CHL3ZWW7cJ9JgU/vMp2UwUA9sdu+1vXgURsB46kO7CQ6/V8O9c4OU5faWk5nDpiuzMmZQAkicTbLZ+5pqvP7NaK28MT7G/flj9ZZdO4zRwiO8dfL5tFOnY0kSmMuL8dNeqNkDkUCxaY5B8MvauxKeJwefykFJHgk9Xvicpba2ESke4rJhuc5t1x9R7u/bl3pN7OgXicHW1zmDvL27BSdxePmeTchrKaXvGoKRHS0zni8u5Wz6H7grR5D+0NsklJBzzpIk1aU12AhGDz9FEHm/Ja3p7nIOqC9Q3ROoh794TYuF8tEEKKev1ILqm6i0hay81Zek4zqVHF9ed40fZ0RF7TMcxWKARzpgOFfkzDUu55kE4e0167M/u3QmK/BkuD8a1/++g0op1hbpeCrkDMj21RXxLOUayyFFX8PdgPpnp5A1e0LX+PSjPCiwP3RFDlbolvPcOr7A/WbxbPWY2SsC4zKN764SxTe6SwojUEF2Zc/pQ8+4zBE0N60whxH4D4vXtyGdKuKtAyNzvFvpWQ4jJGK/K8VtrfVxTvyRMwevtndjFkEkV84ZJLDJlJEUlnvF49aWwiXwPGTVeSFDL5t/hQuiCuro/w=
-  app: mern--shoppinglist
-  on:
-    repo: above-the-line/lernMERNShopper
