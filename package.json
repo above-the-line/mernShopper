@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm heroku-postbuild",
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
