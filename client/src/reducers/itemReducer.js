@@ -1,3 +1,11 @@
+// THE REDUX REDUCER
+// 
+// As described in notes within ./store.js and ./app.js, 
+// when the dispatcher notifies the store that an action
+// has been completed, the store's reducer creates
+// a copy of the existing state and appends it with the new state.
+// The state is passed to the components as props.
+
 import { GET_ITEMS, ADD_ITEM, DELETE_ITEM, ITEMS_LOADING } from '../actions/types.js'
 
 const initialState = {

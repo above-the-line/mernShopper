@@ -1,3 +1,17 @@
+// GENERAL NOTES
+// (see ./components/itemModal.js for a more thorough discussion of structure).
+// react-redux connect connects the React component with the Redux store.
+// react-redux mapStateToProps connects a part of the Redux state 
+// to the props of the React component. 
+// allowing the connected React component to access the part of the Redux store it needs.
+// react-transition-group adds fade function, it's configured in App.css
+// Proptypes helps with type checking.
+// 
+// FUNCTIONALITY
+// The component calls for a list
+
+
+
 import React, { Component } from 'react';
 import { Container, ListGroup, ListGroupItem, Button } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
